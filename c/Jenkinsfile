@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'This is Stage 1 inside the c dir '
+            }
+        }
+
+        stage('Stage 2') {
+            steps {
+                echo 'This is Stage 2 inside the c dir '
+            }
+        }
+
+        stage('Stage 3') {
+            steps {
+                echo 'This is Stage 3 inside the c dir '
+            }
+        }
+
+        stage('Stage 4') {
+            steps {
+                echo 'This is Stage 4 inside the c dir '
+            }
+        }
+
+        stage('Stage 5') {
+            steps {
+                echo 'This is Stage 5 inside the c dir '
+            }
+        }
+    }
+}
